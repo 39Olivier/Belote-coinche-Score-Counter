@@ -233,7 +233,7 @@ const App: React.FC = () => {
         </main>
 
         <footer className="text-center mt-12 text-red-500 text-base font-bold">
-          <p>(©)Olivier Fontaine - Version 1.00 - octobre 2025</p>
+          <p>(©)Olivier74 - Version 1.00 - octobre 2025</p>
         </footer>
       </div>
 
