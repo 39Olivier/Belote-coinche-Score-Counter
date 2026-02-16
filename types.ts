@@ -1,3 +1,4 @@
+
 export enum Team {
   Nous = 'Nous',
   Eux = 'Eux',
@@ -22,8 +23,8 @@ export interface Round {
   suit: Suit;
   scoreMade: number;
   opponentScore: number;
-  checkedOff?: boolean;
-  overridden?: boolean;
+  checkedOff: boolean;
+  overridden: boolean;
   animationClass?: string;
 }
 
@@ -33,6 +34,6 @@ export interface NewRoundData {
   scoreMade: number;
   opponentScore: number;
   suit: Suit;
-  checkedOff?: boolean;
-  overridden?: boolean;
+  checkedOff: boolean;
+  overridden: boolean;
 }
